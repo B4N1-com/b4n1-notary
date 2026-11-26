@@ -1,0 +1,8 @@
+[book]
+title = "b4n1-notary — manual"
+authors = ["B4N1"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"

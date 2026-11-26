@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.b4n1</groupId>
+  <artifactId>b4n1-notary</artifactId>
+  <version>0.2.1</version>
+  <packaging>jar</packaging>
+
+  <name>b4n1-notary</name>
+  <description>Authorship integrity and sealing: stamp, verify and list the proofs of a project.</description>
+  <url>https://github.com/B4N1-com/b4n1-notary</url>
+
+  <licenses>
+    <license>
+      <name>Business Source License 1.1</name>
+      <url>https://github.com/B4N1-com/b4n1-notary/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>com/b4n1/notary/**</include>
+            <include>native/**</include>
+            <include>EULA.txt</include>
+            <include>LICENSE</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

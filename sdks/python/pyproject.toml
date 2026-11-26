@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b4n1-notary"
+version = "0.2.1"
+description = "Authorship integrity and sealing: stamp, verify and list the proofs of a project. Bundles the engine, no compiler needed."
+requires-python = ">=3.8"
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.scripts]
+b4n1-notary = "b4n1notary.__main__:main"
+
+[tool.setuptools]
+packages = ["b4n1notary"]
+license-files = ["LICENSE", "EULA.txt"]
+
+[tool.setuptools.package-data]
+b4n1notary = ["bin/*", "LICENSE", "EULA.txt"]

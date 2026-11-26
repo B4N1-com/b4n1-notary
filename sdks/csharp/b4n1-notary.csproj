@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>B4n1.Notary</RootNamespace>
+    <AssemblyName>b4n1-notary</AssemblyName>
+    <LangVersion>10</LangVersion>
+    <PackageId>B4n1.Notary</PackageId>
+    <Version>0.2.1</Version>
+    <Description>Authorship integrity and sealing: stamp, verify and list the proofs of a project.</Description>
+    <PackageLicenseExpression>BUSL-1.1</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The suite lives inside this directory; without this the library globs
+         the test Program.cs and its generated AssemblyInfo, and the build
+         fails with duplicate assembly attributes. -->
+    <Compile Remove="tests/**" />
+    <None Remove="tests/**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="EULA.txt" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

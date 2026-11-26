@@ -1,0 +1,15 @@
+{
+  "name": "b4n1/b4n1-notary",
+  "description": "Authorship integrity and sealing — Merkle root, portable proof, optional Bitcoin-anchored receipts",
+  "version": "0.2.1",
+  "license": "BUSL-1.1",
+  "autoload": {
+    "psr-4": {
+      "B4N1\\Notary\\": "src/"
+    }
+  },
+  "bin": ["bin/b4n1notary"],
+  "require": {
+    "php": ">=7.4"
+  }
+}

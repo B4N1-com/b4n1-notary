@@ -1,0 +1,32 @@
+{
+  "name": "b4n1/b4n1-notary",
+  "description": "Authorship integrity and sealing — prove what you delivered, and when",
+  "type": "library",
+  "license": "BUSL-1.1",
+  "keywords": [
+    "notary",
+    "integrity",
+    "merkle",
+    "opentimestamps",
+    "provenance"
+  ],
+  "authors": [
+    {
+      "name": "Bani Montoya",
+      "email": "b4n1@b4n1.com"
+    }
+  ],
+  "homepage": "https://b4n1.com",
+  "support": {
+    "issues": "https://github.com/B4N1-com/b4n1-notary/issues",
+    "source": "https://github.com/B4N1-com/b4n1-notary"
+  },
+  "autoload": {
+    "psr-4": {
+      "B4N1\\Notary\\": "sdks/php/src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
