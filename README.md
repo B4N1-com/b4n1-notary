@@ -1,12 +1,24 @@
+<p align="center">
+  <img src="b4n1notary_presentation.png" alt="B4N1 Notary — Prove what you delivered, and when." width="100%">
+</p>
+
 <div align="center">
 
 # b4n1-notary
 
 **Prove what you delivered, and when.**
 
-[![License: BUSL-1.1](https://img.shields.io/badge/license-BUSL--1.1-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-3776AB.svg)](https://pypi.org/project/b4n1-notary/)
-[![npm](https://img.shields.io/badge/npm-b4n1--notary-CB3837.svg)](https://www.npmjs.com/package/b4n1-notary)
+[![License](https://img.shields.io/badge/license-BUSL--1.1-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/b4n1-notary.svg)](https://pypi.org/project/b4n1-notary/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/b4n1-notary.svg)](https://pypi.org/project/b4n1-notary/)
+[![Pepy downloads](https://img.shields.io/pepy/dt/b4n1-notary.svg)](https://pepy.tech/project/b4n1-notary)
+[![npm](https://img.shields.io/npm/v/b4n1-notary.svg)](https://www.npmjs.com/package/b4n1-notary)
+[![npm downloads](https://img.shields.io/npm/dm/b4n1-notary.svg)](https://www.npmjs.com/package/b4n1-notary)
+[![NuGet](https://img.shields.io/nuget/v/B4n1.Notary.svg)](https://www.nuget.org/packages/B4n1.Notary)
+[![NuGet downloads](https://img.shields.io/nuget/dt/B4n1.Notary.svg)](https://www.nuget.org/packages/B4n1.Notary)
+[![RubyGems](https://img.shields.io/gem/v/b4n1-notary.svg)](https://rubygems.org/gems/b4n1-notary)
+[![Packagist](https://img.shields.io/packagist/v/b4n1/b4n1-notary.svg)](https://packagist.org/packages/b4n1/b4n1-notary)
+[![Go Reference](https://pkg.go.dev/badge/github.com/b4n1-com/b4n1-notary/sdks/go.svg)](https://pkg.go.dev/github.com/b4n1-com/b4n1-notary/sdks/go)
 
 [Manual](docs/src/SUMMARY.md) · [Español](i18n/README.es.md) · [Français](i18n/README.fr.md) · [Deutsch](i18n/README.de.md) · [Italiano](i18n/README.it.md) · [Português](i18n/README.pt-BR.md) · [Русский](i18n/README.ru.md) · [العربية](i18n/README.ar.md) · [हिन्दी](i18n/README.hi.md) · [日本語](i18n/README.ja.md) · [한국어](i18n/README.ko.md) · [中文](i18n/README.zh-CN.md)
 
