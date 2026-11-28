@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="b4n1notary_presentation.png" alt="B4N1 Notary — Prove what you delivered, and when." width="100%">
+  <img src="https://raw.githubusercontent.com/B4N1-com/b4n1-notary/master/b4n1notary_presentation.png" alt="B4N1 Notary — Prove what you delivered, and when." width="100%">
 </p>
 
 <div align="center">
